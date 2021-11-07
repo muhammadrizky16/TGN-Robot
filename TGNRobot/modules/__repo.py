@@ -5,7 +5,7 @@ from pyrogram.types import *
 from TGNRobot.conf import get_str_key
 from TGNRobot import pbot
 
-REPO_TEXT = "**A Powerful [BOT](https://telegra.ph/file/e1ff8620519d6378ac1f0.jpg) to Make Your Groups Secured and Organized ! \n\n↼ Øwñêr ⇀ : 『 [Akki](t.me/godfatherakki) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» @The_Godfather_Network «««"
+REPO_TEXT = "**A Powerful [BOT](https://telegra.ph/file/e1ff8620519d6378ac1f0.jpg) To Make Your Groups Secured And Organized !** \n\n**『 Owner 』 : 『 [Skyzo](t.me/xflskyzo) 』**\n**╭──────────────**\n**┣─ » Python ~ 3.8.6**\n**┣─ » Update ~ Recently**\n**╰──────────────**\n\n**»» 『 @SadRoomsInfo 』 ««**"
   
 BUTTONS = InlineKeyboardMarkup(
       [[
