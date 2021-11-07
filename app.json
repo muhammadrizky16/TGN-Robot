@@ -1,7 +1,7 @@
 {
-      "name": "╚»𝗧-𝗚-𝗡«╝ Robot",
+      "name": "╚»F-L-C«╝ Robot",
       "description": "Telegram group management bot.",
-      "logo": "https://telegra.ph/file/19798419a95cd778001c9.jpg",
+      "logo": "https://telegra.ph/file/9421df63f841c6b268700.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -9,7 +9,7 @@
          "manager",
          "TGN"
       ],   
-   "repository": "https://github.com/Itsunknown-12/TGN-Robot.git",
+   "repository": "https://github.com/ridho17-ind/TGN-Robot.git",
    "addons": [
       {
          "options": {
@@ -50,7 +50,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1669178360"
+         "value": "1705562427"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
@@ -115,7 +115,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1669178360"
+         "value": "2063016755"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
