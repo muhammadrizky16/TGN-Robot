@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴏɪ, ɪ ᴍ ᴛɢɴ ʀᴏʙᴏᴛ
+ʜᴏɪ, ɪ ᴍ ꜰʟɪᴄᴋs​ ʀᴏʙᴏᴛ
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
  [❤](https://telegra.ph/file/cab6825dea9263d347831.jpg)
 """
@@ -82,18 +82,18 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴛɢɴ ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/TGN_Ro_bot?startgroup=true"),
+            text="ᴀᴅᴅ ᴛɢɴ ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/FlicksMusicBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ 💫", url=f"https://github.com/Itsunknown-12/TGN-Robot"),
+        InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴇ​", url=f"https://t.me/xflskyzo"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/The_Godfather_Network"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/SadRoomsInfo"),
         InlineKeyboardButton(
-            text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/greatpersonxd"
+            text="ꜰʟɪᴄᴋs ᴄʜᴀᴛ​", url=f"https://t.me/FlicksSupport"
         ),
     ],
     [
@@ -109,8 +109,8 @@ HELP_STRINGS = """
 START_IMG = "https://telegra.ph/file/63d1ee18f81c92d11210e.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Lucifer](t.me/detctective_de) \
- Supporting isnt always financial! [ ɴᴇᴛᴡᴏʀᴋ](https://t.me/Zaid_updates) \
+ You can support the project [Flicks](t.me/SadRoomsInfo) \
+ Supporting isnt always financial! [Skyzo](https://t.me/XFLSkyzo) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -359,7 +359,7 @@ def zaid_about_callback(update, context):
     query = update.callback_query
     if query.data == "zaid_":
         query.message.edit_text(
-            text=""" ℹ️ I am [TGN Robot](t.me/TGN_Ro_bot), a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I am [Flicks Robot](t.me/FlicksMusicBot), a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -367,8 +367,8 @@ def zaid_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_TGN's licensed under the GNU General Public License v3.0_
-                 \n❍ Assistant @TGN\_Assistant.
-                 \nHere is the [💾Repository](https://github.com/Itsunknown-12/TGN-Robot).
+                 \n❍ Assistant @Assist_Music_Bot.
+                 \nHere is the [Repository](https://github.com/ridho17-ind).
                  \n\nIf you have any question about bot, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -395,8 +395,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I am [Robot](t.me/TGN_Ro_Bot)
-                 \nHere is the [Source Code](https://github.com/Itsunknown-12/TGN-Robot) .""",
+            text=""" Hi..🤗 I am [Flicks](t.me/FlicksMusicBot)
+                 \nHere is the [Source Code](https://github.com/ridho17-ind) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
