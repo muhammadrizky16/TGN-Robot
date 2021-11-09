@@ -1,4 +1,4 @@
-__mod_name__ = "Flicks Music"
+__mod_name__ = "Kyy Music"
 
 __help__ = """
 =>> *Song Playing* 🎧 
@@ -17,6 +17,6 @@ __help__ = """
 ❍ /userbotjoin - invite assistant to your chat
 ❍ /admincache - Refresh admin list
 =>>   *Use*
-1) Add @FlicksMusicBot in your group to admin with all permission
-2) Add Assistant I'd to your group @Assist_Music_Bot
+1) Add @Kyymusiicbot in your group to admin with all permission
+2) Add Assistant I'd to your group @Kyymusicassistant
 """
