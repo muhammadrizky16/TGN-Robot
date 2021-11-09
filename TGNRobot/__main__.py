@@ -82,16 +82,16 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ꜰʟɪᴄᴋs ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/FlicksMusicBot?startgroup=true"),
+            text="ᴀᴅᴅ ꜰʟɪᴄᴋs ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/Kyymusiicbot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴇ​", url=f"https://t.me/xflskyzo"),
+        InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴇ​", url=f"https://t.me/IDnyaKosong"),
         InlineKeyboardButton(
             text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/SadRoomsInfo"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/ahhsudahlahhh"),
         InlineKeyboardButton(
             text="ꜰʟɪᴄᴋs ᴄʜᴀᴛ​", url=f"https://t.me/FlicksSupport"
         ),
@@ -224,7 +224,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_video(
-            START_IMG, caption= "<code>Flicks Is Here For You❤\nI am Awake Since</code>: <code>{}</code>".format(
+            START_IMG, caption= "<code>Kyy Is Here For You❤\nI am Awake Since</code>: <code>{}</code>".format(
                 uptime            
             ),
             parse_mode=ParseMode.HTML,
@@ -359,7 +359,7 @@ def zaid_about_callback(update, context):
     query = update.callback_query
     if query.data == "zaid_":
         query.message.edit_text(
-            text=""" ℹ️ I am [Flicks Robot](t.me/FlicksMusicBot), a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I am [Kyy Robot](t.me/Kyymusiicbot), a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -367,8 +367,8 @@ def zaid_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_TGN's licensed under the GNU General Public License v3.0_
-                 \n❍ Assistant @Assist_Music_Bot.
-                 \nHere is the [Repository](https://github.com/ridho17-ind).
+                 \n❍ Assistant @Kyymusicassistant.
+                 \nHere is the [Repository](https://github.com/muhammadrizky16).
                  \n\nIf you have any question about bot, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -395,8 +395,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I am [Flicks](t.me/FlicksMusicBot)
-                 \nHere is the [Source Code](https://github.com/ridho17-ind) .""",
+            text=""" Hi..🤗 I am [Kyy](t.me/Kyymusiicbot)
+                 \nHere is the [Source Code](https://github.com/muhammadrizky16) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
