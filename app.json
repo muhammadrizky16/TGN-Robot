@@ -1,5 +1,5 @@
 {
-      "name": "╚»F-L-C«╝ Robot",
+      "name": "Kyy Robot",
       "description": "Telegram group management bot.",
       "logo": "https://telegra.ph/file/9421df63f841c6b268700.jpg",
       "keywords": [
@@ -9,7 +9,7 @@
          "manager",
          "TGN"
       ],   
-   "repository": "https://github.com/ridho17-ind/TGN-Robot.git",
+   "repository": "https://github.com/muhammadrizky16/TGN-Robot.git",
    "addons": [
       {
          "options": {
