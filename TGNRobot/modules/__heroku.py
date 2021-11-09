@@ -158,7 +158,7 @@ async def dyno_usage(dyno):
 
     return await die.edit(
         "**Dyno Usage**:\n\n"
-        f" **-> Dyno Usage For**  **Flicks Bot**:\n"
+        f" **-> Dyno Usage For**  **Kyy Bot**:\n"
         f"     •  `{AppHours}`**H**  `{AppMinutes}`**M**  "
         f"**|**  [`{AppPercentage}`**%**]"
         "\n\n"
